@@ -1,0 +1,14 @@
+body {
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+}
+h2 {
+	color: #eee;
+}
+
+@media(max-width: 480px) and (max-height: 480px) {
+	body {
+		background-color: navy;
+	}
+}

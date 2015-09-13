@@ -1,0 +1,17 @@
+body {
+	text-align: center;
+	color: green;
+	background-color: white;
+}
+
+@media (orientation: landscape) {
+	body {
+		background-color: yellow;
+	}
+}
+
+@media (orientation: portrait) {
+	body {
+		background-color: orange;
+	}
+}
