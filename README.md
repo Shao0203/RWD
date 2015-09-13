@@ -1,7 +1,7 @@
 # RWD
 Responsive Web Design - Swipe
 
-#------------------------------------------
+#Foundation------------------------------------------
 ---viewport---
 <meta name="viewport" content="width=device-width, initial-scale=1.0, 
 user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
@@ -39,4 +39,13 @@ screen and (-webkit-device-pixel-ratio:1) {...}
 @media (max-width: 480px), (max-height: 480px) {...}
 @media not screen {...}
 
-#------------------------------------------
+---Layout---
+*Breakpoint
+@media (min-width: 1200px)
+.container: width 960px->1170px, mainbody 620->770 margin-right 20->30, siderbar 320->370;
+@media (max-width: 959px)
+.container: width->100%, mainbody->67%, siderbar->30%;
+@media (max-width: 767px)
+mainbody, siderbar->100% | float: none;
+
+---Navigation---
