@@ -49,3 +49,14 @@ screen and (-webkit-device-pixel-ratio:1) {...}
 mainbody, siderbar->100% | float: none;
 
 ---Navigation---
+HTML: 
+<a href="#nav">openBtn</a> 
+<nav id="nav">-menu-</nav>
+<a href="#nav">closeBtn</a>
+
+CSS: Two Btns display:none when width is big
+@media (max-width: 767px){
+	display two btns by class;
+	hide nav(and closebtn) as default
+	display nav(and closebtn) when nav is targeted by clicking openBtn
+}
