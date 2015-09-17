@@ -59,3 +59,21 @@ Two Btns are hidden as default (full-screen of browser), :target pseudo-class wi
 `hide nav(and closebtn) as default`  
 `display nav(and closebtn) when nav is targeted by clicking openBtn`  
 `}`  
+
+---Image---  
+`<div id="showcase"></div>`  
+
+`#showcase {`  
+  `background: url(../../img/01.jpg) 50% 50% no-repeat;`  
+  `margin-bottom: 20px;`  
+  **`background-size: cover;`**  
+  **`padding-top: 56%;	/*image height:width*/`**  
+`}`  
+
+changing a less pixel image for small device to reduce loading time  
+
+`@media ( max-width: 480px) {`  
+`#showcase {`  
+`background: url(../../img/01_s.jpg) 50% 50% no-repeat;`  
+` }`  
+`}`  
