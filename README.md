@@ -48,12 +48,12 @@ Breakpoint, different width defines different css style
 
 ---Navigation---  
 HTML part:  
-openBtn  
-navigation(Menu)  
-closeBtn  
+`<a href="#nav" class="open toggle-btn">openBtn</a>`  
+`<nav id="nav"><ul>Items[1-5]</ul></nav>`  
+`<a href="#top" class="close toggle-btn">closeBtn</a>`  
 
 CSS part:  
-Two Btns hidden when width is big  
+Two Btns are hidden as default (full-screen of browser), :target pseudo-class will be used.  
 `@media (max-width: 767px){`  
 `display two btns by their class`  
 `hide nav(and closebtn) as default`  
