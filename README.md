@@ -1,5 +1,8 @@
 # RWD
-Responsive Web Design - Swipe
+Responsive Web Design - Swipe  
+You may clone the code, run and swipe it on Chrome mobile emulator.  
+
+FortAwesome/Font-Awesome & thebird/Swipe is used here, thanks.  
 
 ###Foundation
 ---viewport---  
