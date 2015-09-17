@@ -11,11 +11,11 @@ Screen / TV / Print / Projection
 `<link rel="stylesheet" href="css/print.css" media="print">`  
 
 ---aspect-ratio---  
-Browser windows - width : height  
+Browser windows - width:height  
 `@media(aspect-ratio: 3/2) {...}`  
 
 ---device-aspect-ratio---  
-Device - width:height*/  
+Device - width:height  
 `@media(device-aspect-ratio: 3/2) {...}`  
 
 ---orientation---  
@@ -48,14 +48,14 @@ Breakpoint, different width defines different css style
 
 ---Navigation---  
 HTML part:  
-`<a href="#nav">openBtn</a>`  
-`<nav id="nav">nav</nav>`  
-`<a href="#nav">closeBtn</a>`  
+openBtn  
+navigation(Menu)  
+closeBtn  
 
 CSS part:  
 Two Btns hidden when width is big  
 `@media (max-width: 767px){`  
-	`display two btns by css class;'  
-	'hide nav(and closebtn) as default'  
-	'display nav(and closebtn) when nav is targeted by clicking openBtn'  
-}`  
+`display two btns by their class`  
+`hide nav(and closebtn) as default`  
+`display nav(and closebtn) when nav is targeted by clicking openBtn`  
+`}`  
